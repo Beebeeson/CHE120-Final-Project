@@ -1,0 +1,28 @@
+# an example for the double jump mechanism, made by Kabie on Stackoverflow
+# https://stackoverflow.com/questions/15463422/pygame-double-jump
+
+g = -1  # gravity
+floor = 0  # where frog stands
+
+
+class Frog():  # say you have a frog
+    def __init__(self):
+        self.y = 0  # distance from ground
+        self.y_speed = 0  # speed
+        self.jumping = 0  # jumping status
+
+    def jump(self):
+        if self.jumping == 0:
+            self.y_speed = 9  # a big jump
+            self.jumping = 1  # change jumping status
+        # I want the small jump available only when falling
+        elif self.jumping == 1 and self.y_speed <= 0:
+            self.y_speed = 5  # a small one
+            self.jumping = 2  # change jumping status
+
+    def update(self):  # this is called by mainloop
+        self.y_speed += g  # change the acceleration
+        self.y = max(self.y + self.y_speed, floor)  # don't want fall off
+        if self.y == 0:  # on the ground again!
+            self.jumping = 0  # reset jump
+            self.y_speed = 0  # reset speed
