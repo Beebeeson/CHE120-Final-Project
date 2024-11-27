@@ -1,61 +1,6 @@
 DOWNLOADING PYGAME USING ANACONDA:
 
-To install `pygame` using Anaconda, you can use the `conda` package manager, which is the default for Anaconda environments. Here’s how you can do it:
 
-### Step 1: Open Anaconda Prompt
-
-1. Open the **Anaconda Prompt** from your Start menu (on Windows) or terminal (on macOS/Linux).
-2. If you're working in a specific virtual environment, make sure you activate it first using:
-   ```bash
-   conda activate your_environment_name
-   ```
-
-### Step 2: Install Pygame with Conda
-
-To install `pygame` in your Anaconda environment, use the following command in the Anaconda Prompt:
-
-```bash
-conda install -c cogsci pygame
-```
-
-### Explanation:
-- The `-c cogsci` flag specifies that you want to install `pygame` from the **cogsci** channel (which is a popular channel for `pygame` in the Anaconda ecosystem).
-- This will download and install the latest compatible version of `pygame` for your environment.
-
-### Step 3: Verify Installation
-
-After installation is complete, you can verify that `pygame` is installed by opening a Python session and importing `pygame`:
-
-1. Open the Python interpreter by typing `python` in the Anaconda Prompt:
-   ```bash
-   python
-   ```
-
-2. Try importing `pygame`:
-   ```python
-   import pygame
-   print(pygame.__version__)  # This will print the installed version of pygame
-   ```
-
-If there are no errors, `pygame` has been successfully installed and is ready to use!
-
-### Step 4: Creating a New Anaconda Environment (Optional)
-
-If you'd like to create a new environment with `pygame` installed, you can do the following:
-
-1. Create a new environment and install `pygame` in it:
-   ```bash
-   conda create -n myenv pygame
-   ```
-
-2. Activate the environment:
-   ```bash
-   conda activate myenv
-   ```
-
-3. Verify that `pygame` is installed by running the import command as shown earlier.
-
-That's it! You’ve successfully installed `pygame` using Anaconda.
 
 Great! You've successfully upgraded `pip` to the latest version (`20.3.4`). Now that the `pip` version is updated, let's continue with the next steps to resolve the `pygame` installation issue.
 
