@@ -2,7 +2,11 @@
 """
 Created on Sat Nov 30 13:34:01 2024
 
-@author: qjf12
+reference: "Coding With Russ" on YouTube:
+"PyGame Beginner Tutorial in Python - Loading Spritesheets", Apr.30, 2021, https://youtu.be/M6e3_8LHc7A?si=-ayQKSouFCfNH5MC
+"PyGame Beginner Tutorial in Python - Sprite Animation", May. 13, 2021, https://youtu.be/nXOVcOBqFwM?si=B0pDR3EhAnypC-h6
+
+sprite asset: "Dino Characters" by Arks on itch.io: https://arks.itch.io/dino-characters
 """
 import pygame
 import sprite_anim
