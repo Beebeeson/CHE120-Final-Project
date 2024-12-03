@@ -2,8 +2,6 @@
 # -*- coding: utf-8 -*-
 """
 Created on Sat Nov 30 15:12:58 2024
-
-@author: qjf12
 """
 import pygame
 # standlone class for creating a surface with a sprite loaded.
