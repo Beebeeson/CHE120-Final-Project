@@ -1,4 +1,4 @@
-#Taixi Liu 21155457 Benson Qiu 21120579
+# Group 42 Taixi Liu 21155457 Benson Qiu 21120579
 # -*- coding: utf-8 -*-
 """
 Created on Sat Nov 30 15:12:58 2024
