@@ -1,3 +1,4 @@
+# Group 42 Taixi Liu 21155457 benson Qiu 21120579
 #BQ: Benson Qiu, TL: Taixi Liu
 import pygame
 import random
