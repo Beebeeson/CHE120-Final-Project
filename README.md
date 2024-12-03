@@ -1,3 +1,5 @@
+GitHub Username: Beebeeson (Benson Qiu) and T226liu (Taixi Liu)
+
 RUN THE .PY FILE NAMED "1.3", THAT IS THE FINAL VERSION OF OUR GAME
 all of the pciture files are integral to the project as they are used to create the animated bavkgrounds and character, and the .py file named "sprite_anim" is a required module for the game.
   MAKE SURE TO DOWNLOAD THEM WITH MAIN FILE "1.3" TO MAKE SURE THAT THE GAME CAN RUN!!!
